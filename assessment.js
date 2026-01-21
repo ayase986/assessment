@@ -121,7 +121,7 @@ function test() {
   console.log('太郎');
   console.assert(
     assessment('太郎') === assessment('太郎'),
-    '入力が同じ名前なら同じ診断結果を出力する処理が正しくありません。'
+    '太郎のいいところはユニークさです。太郎だけのその特徴が皆を楽しくさせます。'
   )
 
   console.log('次郎');
@@ -141,3 +141,4 @@ function test() {
 
 
 test();
+
